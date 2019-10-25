@@ -77,8 +77,8 @@ h1 {
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 #merch {
   float: left;
-  width: 33.33%;
-  padding: 5px;
+  width: 50%;
+  padding: 10px;
 }
 #taylor {
   transform:rotate(90deg);
@@ -155,4 +155,36 @@ h1 {
 #catImage {
   width: 510px;
   height: auto;
+}
+
+button {
+  width: 62px;
+  height: 62px;
+  border-color: #e6f2ff !important;
+  margin: 3px;
+}
+
+#white {
+  background-color: white !important;
+}
+
+#black {
+  background-color: rgb(28,28,28) !important;
+  color: white;
+}
+
+#gray {
+  background-color: rgb(176,176,176) !important;
+}
+
+#blue {
+  background-color: rgb(192,208,223) !important;
+}
+
+#pink {
+  background-color: rgb(235,188,196) !important;
+}
+
+#sand {
+  background-color: rgb(205,191,166) !important;
 }

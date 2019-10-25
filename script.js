@@ -1,4 +1,6 @@
-/*global fetch*/
+/*global fetch
+global Vue*/
+    
 document.getElementById("myButton").addEventListener("click", function(event) {
     event.preventDefault();
     
@@ -14,3 +16,4 @@ document.getElementById("myButton").addEventListener("click", function(event) {
             document.getElementById("catFact").innerHTML = results;
         });
 });
+
